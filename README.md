@@ -2,6 +2,7 @@
 Vehicle Rental Management System demonstrates the object-oriented principles in C#, mainly focusing on inheritance, abstraction, and encapsulation and developing classes to represent vehicles and a rental agency.
 
 Project Structure
+
 The vehicle Rental Management System contains several classes, each defined in separate files:
 Vehicle.cs:  This file contains Vehicle class to represent a generic vehicle available for rental and includes properties such as Model, Manufacturer, Year, and RentalPrice. The DisplayDetails() method is used to display the vehicle's details.
 Car.cs:  This file contains Car class that inherits from the Vehicle class and includes properties such as Seats, EngineType, Transmission, and Convertible. The DisplayDetails() method is used to display the vehicle's details including both common vehicle properties and car-specific properties.
@@ -11,6 +12,7 @@ RentalAgency.cs: This file contains RentalAgency class to manage the rental agen
 Program.cs: This file contains the functionality to create intsanves for vehicle and adding them to RentalAgency
 
 Setup Instructions
+
 Download and install.NET SDK
 Create a repository named Vehicle Rental Management System
 Build the project and run the project.
