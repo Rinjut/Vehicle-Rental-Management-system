@@ -30,7 +30,7 @@
         if (fleet.Contains(vehicle))
         {
             TotalRevenue += vehicle.RentalPrice * days;
-            Console.WriteLine(vehicle.Model+" rented for"+ days+"days" + ". Total charge: "+vehicle.RentalPrice * days+ ":C");
+            Console.WriteLine(vehicle.Model+" rented for"+" "+ days+" "+"days" + ". Total charge: "+vehicle.RentalPrice * days+ ":C");
         }
         else
         {
